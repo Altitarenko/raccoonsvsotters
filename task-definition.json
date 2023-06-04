@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-west-2:697224503783:task-definition/raccoonsvsotters-def:11",
+    "taskDefinitionArn": "arn:aws:ecs:us-west-2:697224503783:task-definition/raccoonsvsotters-def:17",
     "containerDefinitions": [
         {
             "name": "raccoonsvsotters",
-            "image": "697224503783.dkr.ecr.us-west-2.amazonaws.com/raccoonsvsotters:28b80d0c9585ea9283a37bc2f86c3f6fba862b18",
+            "image": "697224503783.dkr.ecr.us-west-2.amazonaws.com/raccoonsvsotters:latest",
             "cpu": 0,
             "portMappings": [
                 {
