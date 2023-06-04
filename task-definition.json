@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-west-2:697224503783:task-definition/raccoonsvsotters-def:9",
+    "taskDefinitionArn": "arn:aws:ecs:us-west-2:697224503783:task-definition/raccoonsvsotters-def:11",
     "containerDefinitions": [
         {
             "name": "raccoonsvsotters",
-            "image": "697224503783.dkr.ecr.us-west-2.amazonaws.com/raccoonsvsotters:latest",
+            "image": "697224503783.dkr.ecr.us-west-2.amazonaws.com/raccoonsvsotters:28b80d0c9585ea9283a37bc2f86c3f6fba862b18",
             "cpu": 0,
             "portMappings": [
                 {
@@ -16,10 +16,8 @@
             ],
             "essential": true,
             "environment": [],
-            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
-            "ulimits": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -34,7 +32,7 @@
     "family": "raccoonsvsotters-def",
     "executionRoleArn": "arn:aws:iam::697224503783:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 9,
+    "revision": 11,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -77,7 +75,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-06-04T13:24:34.893Z",
-    "registeredBy": "arn:aws:iam::697224503783:root",
+    "registeredAt": "2023-06-04T13:38:00.997Z",
+    "registeredBy": "arn:aws:iam::697224503783:user/ecr-user",
     "tags": []
 }
