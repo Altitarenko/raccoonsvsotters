@@ -16,8 +16,10 @@
             ],
             "essential": true,
             "environment": [],
+            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
+            "ulimits": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -32,7 +34,7 @@
     "family": "raccoonsvsotters-def",
     "executionRoleArn": "arn:aws:iam::697224503783:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 11,
+    "revision": 17,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -70,12 +72,12 @@
         "FARGATE"
     ],
     "cpu": "1024",
-    "memory": "3072",
+    "memory": "2048",
     "runtimePlatform": {
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-06-04T13:38:00.997Z",
-    "registeredBy": "arn:aws:iam::697224503783:user/ecr-user",
+    "registeredAt": "2023-06-04T14:17:36.798Z",
+    "registeredBy": "arn:aws:iam::697224503783:root",
     "tags": []
 }
